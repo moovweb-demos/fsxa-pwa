@@ -9,7 +9,7 @@ module.exports = {
   // name: 'my-site-name',
 
   // The name of the team in Edgio to which this app should be deployed.
-  // team: 'my-team-name',
+  team: 'nintendoeu',
 
   // Set to true to include all packages listed in the dependencies property of package.json when deploying to Edgio.
   includeNodeModules: true

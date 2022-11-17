@@ -105,4 +105,14 @@ const config: NuxtConfig = {
   }
 }
 
+// If the environment specifies a remote API host, use that for nuxt_host instead
+// of the default localhost.
+if ('REMOTE_API_HOST' in process.env) {
+  config.publicRuntimeConfig = {
+    ...config.publicRuntimeConfig,
+    NUXT_HOST: process.env.REMOTE_API_HOST,
+    NUXT_PORT: '443'
+  }
+}
+
 export default config
