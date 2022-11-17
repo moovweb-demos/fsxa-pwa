@@ -1,6 +1,6 @@
 export default {
   devMode: false,
-  defaultLocale: 'de_DE',
+  defaultLocale: 'en_GB',
   useErrorBoundaryWrapper: false,
   components: {
     sections: '~/components/fsxa/sections',
