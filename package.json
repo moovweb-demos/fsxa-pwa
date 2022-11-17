@@ -33,20 +33,20 @@
     }
   },
   "dependencies": {
+    "@nuxt/core": "^2.15.8",
     "@nuxtjs/axios": "^5.13.6",
-    "fsxa-nuxt-module": "github:moovweb-demos/fsxa-nuxt-module#master",
-    "@nuxt/core": "^2.15.8"
+    "fsxa-nuxt-module": "github:moovweb-demos/fsxa-nuxt-module#master"
   },
   "devDependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.12.7",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@edgio/cli": "^5.0.4",
-    "@edgio/core": "^5.0.4",
-    "@edgio/devtools": "^5.0.4",
-    "@edgio/nuxt": "^5.0.4",
-    "@edgio/prefetch": "^5.0.4",
-    "@edgio/vue": "^5.0.4",
+    "@edgio/cli": "^5.0.5-next-1668627043-504d7b8.0",
+    "@edgio/core": "^5.0.5-next-1668627043-504d7b8.0",
+    "@edgio/devtools": "^5.0.5-next-1668627043-504d7b8.0",
+    "@edgio/nuxt": "^5.0.5-next-1668627043-504d7b8.0",
+    "@edgio/prefetch": "^5.0.5-next-1668627043-504d7b8.0",
+    "@edgio/vue": "^5.0.5-next-1668627043-504d7b8.0",
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/eslint-config-typescript": "^6.0.1",
